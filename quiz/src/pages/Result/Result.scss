@@ -1,0 +1,35 @@
+.result {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+
+  &__item {
+    &--selected {
+      color: red;
+    }
+
+    &--result {
+      color: green;
+    }
+  }
+
+  &__tag {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    background: orange;
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin-left: 10px;
+
+    &--true {
+      background: green;
+    }
+
+    &--false {
+      background: red;
+    }
+  }
+}
